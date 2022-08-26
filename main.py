@@ -3,6 +3,5 @@ def hello():
 
 
 if __name__ == "__main__":
-    ret = hello( )
+    ret = hello()
     print(ret)
- 
