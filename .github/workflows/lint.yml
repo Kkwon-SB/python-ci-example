@@ -1,10 +1,10 @@
-name: Lint code base-name
+name: Lint code base
 
 on: push
 
 job:
     super-lint:
-        name: Lint Code Base-2name
+        name: Lint Code Base
         runs-on: ubuntu-latest
 
         env:
@@ -14,7 +14,7 @@ job:
             - name: Checkout code
               uses: actions/checkout@v2
 
-            - name: Lint Code Base-3name
+            - name: Lint Code Base
               uses: github/super-linter@v4
               env:
                   DEFAULT_BRANCH: master
