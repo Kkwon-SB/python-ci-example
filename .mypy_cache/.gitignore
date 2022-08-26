@@ -1,0 +1,6 @@
+# Automatically created by mypy
+coverage.xml
+.coverage
+.mypy_cache
+.pytest_cache
+__pycache__
