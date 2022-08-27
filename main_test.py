@@ -8,7 +8,7 @@ class MainTest(unittest.TestCase):
         self.assertEqual(hello(), "hello world")
 
 
-if __name__ == "__main__": # pragma: no cover
+if __name__ == "__main__":
     unittest.main()
     # python -m unittest discover -p "*_test.py"
     # coverage run --source=./ -m unittest discover -p "*_test.py"
